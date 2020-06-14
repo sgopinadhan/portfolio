@@ -1,0 +1,158 @@
+.skillsList, .education {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+.wrapper span{
+  position: fixed;
+  bottom: -50px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  animation: bubbles 3s linear infinite;
+}
+
+.wrapper span:nth-child(1){
+  left: 25%;
+  animation-delay: 0.1s;
+ background-color: #48ef00;
+}
+
+.wrapper span:nth-child(2){
+  left: 30%;
+  animation-delay: 7.5s;
+ background-color: #ef00bf;
+}
+
+.wrapper span:nth-child(3){
+  left: 35%;
+  animation-delay: 2s;
+ background-color: #efa900;
+}
+
+.wrapper span:nth-child(4){
+  left: 100%;
+  animation-delay: 6.5s;
+ background-color: #897fe2;
+}
+
+.wrapper span:nth-child(5){
+  left: 45%;
+  animation-delay: 3s;
+ background-color: #a700ef;
+}
+
+.wrapper span:nth-child(6){
+  left: 28%;
+  animation-delay: 3.5s;
+ background-color:#ef0048;
+}
+
+.wrapper span:nth-child(7){
+  left: 37%;
+  animation-delay: 4s;
+ background-color: #897fe2;
+}
+
+.wrapper span:nth-child(8){
+  left: 52%;
+  animation-delay: 4.5s;
+ background-color: #6FF08C;
+}
+
+.wrapper span:nth-child(9){
+  left: 65%;
+  animation-delay: 5s;
+ background-color: #EC3F06;
+}
+
+.wrapper span:nth-child(10){
+  left: 70%;
+  animation-delay: 5.5s;
+ background-color: #CF6015;
+}
+
+.wrapper span:nth-child(11){
+  left: 75%;
+  animation-delay: 6s;
+ background-color: #8E7B04;
+}
+
+.wrapper span:nth-child(12){
+  left: 80%;
+  animation-delay: 2.5s;
+ background-color: #45F3DC;
+}
+
+.wrapper span:nth-child(13){
+  left: 85%;
+  animation-delay: 7s;
+ background-color: #ED9D74;
+}
+
+.wrapper span:nth-child(14){
+  left: 90%;
+  animation-delay: 1.5s;
+ background-color: #F9CD2A;
+}
+@keyframes bubbles{
+
+  0%{
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 10vw;
+}
+
+  10%{
+    bottom: 10%;
+    margin-left: 10vw;
+    margin-right: 0;
+     opacity: 1;
+  }
+
+  20%{
+    bottom: 20%;
+    margin-left: 10vw;
+    margin-right: 0;
+     opacity: 1;
+  }
+
+  40%{
+    bottom: 40%;
+    margin-left: 0;
+    margin-right: 10vw;
+    opacity: 0;
+  }
+
+  60%{
+    bottom: 60%;
+    margin-left: 10vw;
+    margin-right: 0;
+  }
+
+  80%{
+    bottom: 80%;
+    margin-left: 0;
+    margin-right: 10vw;
+    opacity: 1;
+  }
+
+   100%{
+    bottom: 100%;
+    margin-left: 10vw;
+    margin-right: 0;
+  }
+}
